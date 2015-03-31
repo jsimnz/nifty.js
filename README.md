@@ -43,7 +43,7 @@ Using `data-trigger` attributes and `data-target` on a button or anchor.
 The structure of the modal HTML is specific
 
 ```
-<div class="nifty-modal md-effect-1" id="modal-1">
+<div class="nifty-modal [animation-class]" id="modal-1">
 	<div class="md-content">
 		<div class='md-title'>
 			<h3>Modal Dialog</h3>
@@ -70,7 +70,7 @@ An addition div is required (preferably at the bottom) to render the div into.
 
 To specify the modal animation, you just add the desired animation class to the modal along with the `nifty-modal` class.
 
-Event Name | CSS Class
+Animation Name | CSS Class
 --- | ---
 Fade In and Scale Up | `.fade-in-scale`
 Slide from the Right | `.slide-in-right`
