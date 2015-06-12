@@ -9,7 +9,7 @@ Nifty.js is a simply jquery library designed to create modals with stunning css 
 
 ## Install
 
-Nifty.js requires jQuery (for now, will remove jQuery dependencies later).
+Nifty.js requires jQuery (>= 1.8.0) (for now, will remove jQuery dependencies later).
 Other then that, simply add the nifty.js (minified coming) to your project wherever you place your js
 
 ## Usage
