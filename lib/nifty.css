@@ -258,7 +258,7 @@ perspective effects (not including the modals and the overlay).
 }
 
 /* Effect 7:  slide and stick to top */
-.slide-in-top{
+.slide-in-top-stuck{
 	top: 0;
 	-webkit-transform: translateX(-50%);
 	-moz-transform: translateX(-50%);
@@ -266,7 +266,7 @@ perspective effects (not including the modals and the overlay).
 	transform: translateX(-50%);
 }
 
-.slide-in-top .md-content {
+.slide-in-top-stuck .md-content {
 	-webkit-transform: translateY(-200%);
 	-moz-transform: translateY(-200%);
 	-ms-transform: translateY(-200%);
@@ -277,7 +277,7 @@ perspective effects (not including the modals and the overlay).
 	opacity: 0;
 }
 
-.md-show.slide-in-top .md-content {
+.md-show.slide-in-top-stuck .md-content {
 	-webkit-transform: translateY(0%);
 	-moz-transform: translateY(0%);
 	-ms-transform: translateY(0%);
