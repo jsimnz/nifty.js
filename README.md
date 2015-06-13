@@ -79,12 +79,12 @@ Newspaper | `.newspaper`
 Fall In | `.fall`
 Side Fall In | `.slide-fall-in`
 Slide in and Stick to Top | `.slide-in-top-stick`
-3D Flip Horizontal | `.3d-flip-horizontal`
-3D Flip Veritcal | `.3d-flip-vertical`
-3D Sign | `.3d-sign`
-3D Slit | `.3d-slit`
-3D Rotate from Bottom | `.3d-rotate-bottom`
-3D Rotate in from Left | `.3d-rotate-in-left`
+3D Flip Horizontal | `.flip-horizontal-3d`
+3D Flip Veritcal | `.flip-vertical-3d`
+3D Sign | `.sign-3d`
+3D Slit | `.slit-3d`
+3D Rotate from Bottom | `.rotate-bottom-3d`
+3D Rotate in from Left | `.rotate-in-left-3d`
 Super Scaled | `.super-scaled`
 Just Me | `.just-me`
 Blur | `.blur`

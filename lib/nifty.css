@@ -283,42 +283,42 @@ perspective effects (not including the modals and the overlay).
 }
 
 /* Effect 8: 3D flip horizontal */
-.3d-flip-horizontal.nifty-modal {
+.flip-horizontal-3d.nifty-modal {
 	-webkit-perspective: 1300px;
 	-moz-perspective: 1300px;
 	perspective: 1300px;
 }
 
-.3d-flip-horizontal .md-content {
+.flip-horizontal-3d .md-content {
 	-webkit-transform-style: preserve-3d;
 	-moz-transform-style: preserve-3d;
 	transform-style: preserve-3d;
-	-webkit-transform: rotateY(-70deg);
-	-moz-transform: rotateY(-70deg);
-	-ms-transform: rotateY(-70deg);
-	transform: rotateY(-70deg);
+	-webkit-transform: rotateY(-70deg) !important;
+	-moz-transform: rotateY(-70deg) !important;
+	-ms-transform: rotateY(-70deg) !important;
+	transform: rotateY(-70deg) !important;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	transition: all 0.3s;
 	opacity: 0;
 }
 
-.md-show.3d-flip-horizontal .md-content {
-	-webkit-transform: rotateY(0deg);
-	-moz-transform: rotateY(0deg);
-	-ms-transform: rotateY(0deg);
-	transform: rotateY(0deg);
+.md-show.flip-horizontal-3d .md-content {
+	-webkit-transform: rotateY(0deg) !important;
+	-moz-transform: rotateY(0deg) !important;
+	-ms-transform: rotateY(0deg) !important;
+	transform: rotateY(0deg) !important;
 	opacity: 1;
 }
 
 /* Effect 9: 3D flip vertical */
-.3d-flip-vertical.nifty-modal {
+.flip-vertical-3d.nifty-modal {
 	-webkit-perspective: 1300px;
 	-moz-perspective: 1300px;
 	perspective: 1300px;
 }
 
-.3d-flip-vertical .md-content {
+.flip-vertical-3d .md-content {
 	-webkit-transform-style: preserve-3d;
 	-moz-transform-style: preserve-3d;
 	transform-style: preserve-3d;
@@ -332,7 +332,7 @@ perspective effects (not including the modals and the overlay).
 	opacity: 0;
 }
 
-.md-show.3d-flip-vertical .md-content {
+.md-show.flip-vertical-3d .md-content {
 	-webkit-transform: rotateX(0deg);
 	-moz-transform: rotateX(0deg);
 	-ms-transform: rotateX(0deg);
@@ -341,13 +341,13 @@ perspective effects (not including the modals and the overlay).
 }
 
 /* Effect 10: 3D sign */
-.3d-sign.nifty-modal {
+.sign-3d.nifty-modal {
 	-webkit-perspective: 1300px;
 	-moz-perspective: 1300px;
 	perspective: 1300px;
 }
 
-.3d-sign .md-content {
+.sign-3d .md-content {
 	-webkit-transform-style: preserve-3d;
 	-moz-transform-style: preserve-3d;
 	transform-style: preserve-3d;
@@ -364,7 +364,7 @@ perspective effects (not including the modals and the overlay).
 	transition: all 0.3s;
 }
 
-.md-show.3d-sign .md-content {
+.md-show.sign-3d .md-content {
 	-webkit-transform: rotateX(0deg);
 	-moz-transform: rotateX(0deg);
 	-ms-transform: rotateX(0deg);
@@ -404,8 +404,9 @@ perspective effects (not including the modals and the overlay).
 	transition: all 0.3s;
 }
 
-.md-show.just-me ~ .md-overlay {
-	background: #e74c3c;
+.md-show.just-me ~ .md-overlay,
+.md-show.just-me .md-content .md-title {
+	background: #efefef !important;
 } 
 
 .just-me .md-content h3,
@@ -422,13 +423,13 @@ perspective effects (not including the modals and the overlay).
 }
 
 /* Effect 13: 3D slit */
-.3d-slit.nifty-modal {
+.slit-3d.nifty-modal {
 	-webkit-perspective: 1300px;
 	-moz-perspective: 1300px;
 	perspective: 1300px;
 }
 
-.3d-slit .md-content {
+.slit-3d .md-content {
 	-webkit-transform-style: preserve-3d;
 	-moz-transform-style: preserve-3d;
 	transform-style: preserve-3d;
@@ -439,7 +440,7 @@ perspective effects (not including the modals and the overlay).
 	opacity: 0;
 }
 
-.md-show.3d-slit .md-content {
+.md-show.slit-3d .md-content {
 	-webkit-animation: slit .7s forwards ease-out;
 	-moz-animation: slit .7s forwards ease-out;
 	animation: slit .7s forwards ease-out;
@@ -461,13 +462,13 @@ perspective effects (not including the modals and the overlay).
 }
 
 /* Effect 14:  3D Rotate from bottom */
-.3d-rotate-bottom.nifty-modal {
+.rotate-bottom-3d.nifty-modal {
 	-webkit-perspective: 1300px;
 	-moz-perspective: 1300px;
 	perspective: 1300px;
 }
 
-.3d-rotate-bottom .md-content {
+.rotate-bottom-3d .md-content {
 	-webkit-transform-style: preserve-3d;
 	-moz-transform-style: preserve-3d;
 	transform-style: preserve-3d;
@@ -484,7 +485,7 @@ perspective effects (not including the modals and the overlay).
 	transition: all 0.3s ease-out;
 }
 
-.md-show.3d-rotate-bottom .md-content {
+.md-show.rotate-bottom-3d .md-content {
 	-webkit-transform: translateY(0%) rotateX(0deg);
 	-moz-transform: translateY(0%) rotateX(0deg);
 	-ms-transform: translateY(0%) rotateX(0deg);
@@ -493,13 +494,13 @@ perspective effects (not including the modals and the overlay).
 }
 
 /* Effect 15:  3D Rotate in from left */
-.3d-rotate-in-left.nifty-modal {
+.rotate-in-3d-left.nifty-modal {
 	-webkit-perspective: 1300px;
 	-moz-perspective: 1300px;
 	perspective: 1300px;
 }
 
-.3d-rotate-in-left .md-content {
+.rotate-in-3d-left .md-content {
 	-webkit-transform-style: preserve-3d;
 	-moz-transform-style: preserve-3d;
 	transform-style: preserve-3d;
@@ -516,7 +517,7 @@ perspective effects (not including the modals and the overlay).
 	transition: all 0.3s;
 }
 
-.md-show.3d-rotate-in-left .md-content {
+.md-show.rotate-in-3d-left .md-content {
 	-webkit-transform: translateZ(0px) translateX(0%) rotateY(0deg);
 	-moz-transform: translateZ(0px) translateX(0%) rotateY(0deg);
 	-ms-transform: translateZ(0px) translateX(0%) rotateY(0deg);
