@@ -66,7 +66,7 @@ An additional div is required (preferably at the bottom) to render the div into.
   <div class='md-overlay'></div>
 ```
 
-You can optionally include a `md-modal` class on your `nifty-modal` div, which will prevent users from closing the div by clicking the overlay. Useful when you have a modal that the user is required to interact with.
+You can optionally include a `md-locked` class on your `nifty-modal` div, which will prevent users from closing the nifty-modal by clicking the overlay. Useful when you have a modal that the user is required to interact with.
 ```
 <div class="nifty-modal md-locked [animation-class]" id="modal-1">
 ```
