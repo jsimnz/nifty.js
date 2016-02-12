@@ -40,10 +40,10 @@ Using `data-trigger` attributes and `data-target` on a button or anchor.
 
 
 ## Structure
-The structure of the modal HTML is specific
+The structure of the modal HTML is specific.
 
 ```
-<div class="nifty-modal [animation-class]" id="modal-1">
+<div class="nifty-modal [animation-class] [md-locked]" id="modal-1">
 	<div class="md-content">
 		<div class='md-title'>
 			<h3>Modal Dialog</h3>
@@ -61,9 +61,14 @@ The structure of the modal HTML is specific
 </div>
 ```
 
-An addition div is required (preferably at the bottom) to render the div into.
+An additional div is required (preferably at the bottom) to render the div into.
 ```
   <div class='md-overlay'></div>
+```
+
+You can optionally include a `md-locked` class on your `nifty-modal` div, which will prevent users from closing the nifty-modal by clicking the overlay. Useful when you have a modal that the user is required to interact with.
+```
+<div class="nifty-modal md-locked [animation-class]" id="modal-1">
 ```
 
 ## Animations
