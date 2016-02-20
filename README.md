@@ -32,6 +32,12 @@ Using `data-trigger` attributes and `data-target` on a button or anchor.
   $("#modalID").nifty("hide")
 ```
 
+##### Update Modal
+```
+  $("#modalID").nifty("update")
+```
+Use this method if you need to update and reposition the modal after content has been dynamically added to it.
+
 ##### Events
 * `show.nifty.modal` - This event is fired immediately when the `show` method is called or when a button is clicked with a data-trigger attribute.
 * `shown.nifty.modal` - This event is fired after the modal is finished showing. This waits for all the animations/transitions to finish.
@@ -96,10 +102,6 @@ Blur | `.blur`
 Slide in from Bottom (w/Perspective) | `.slide-in-bottom-perspective`
 Slide from Right (w/Perspective) | `.slide-in-right-prespective`
 Slip in from Top (w/Perspective) | `.slip-in-top-perspective`
-
-
-## TODO
-* Remove dependancy on jQuery
 
 ## Authors
 **John-Alan Simmons** [iamjsimnz](https://github.com/jsimnz), [@iamjsimnz](https://twitter.com/iamjsimnz)
