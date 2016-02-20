@@ -1,4 +1,4 @@
-Nifty.js - v0.1
+Nifty.js - v0.2
 ==========
 
 A JQuery plugin to create modal window effects based on [codrops](http://tympanus.net/Development/ModalWindowEffects/)
