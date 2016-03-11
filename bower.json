@@ -1,5 +1,5 @@
 {
-  "name": "nifty-modal",
+  "name": "nifty-js",
   "version": "0.2",
   "authors": [
     "John-Alan Simmons"
@@ -12,7 +12,7 @@
     "jquery"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/jsimnz/nifty-modal",
+  "homepage": "https://github.com/jsimnz/nifty.js",
   "ignore": [
     "**/.*",
     "node_modules",
