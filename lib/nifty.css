@@ -18,11 +18,6 @@ perspective effects (not including the modals and the overlay).
 	perspective: 600px;
 }
 
-.container {
-	background: #e74c3c;
-	min-height: 100%;
-}
-
 .nifty-modal {
 	position: fixed;
 	top: 50%;
@@ -57,7 +52,7 @@ perspective effects (not including the modals and the overlay).
 	transition: all 0.3s;
 }
 
-.md-show ~ .md-overlay {
+body.md-show .md-overlay {
 	opacity: 1;
 	visibility: visible;
 }
@@ -727,5 +722,5 @@ perspective effects (not including the modals and the overlay).
 }
 
 @media screen and (max-width: 32em) {
-	body { font-size: 75%; }
+	.nifty-modal { font-size: 75%; }
 }
