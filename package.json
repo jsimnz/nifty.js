@@ -1,0 +1,23 @@
+{
+  "name": "jsimnz/nifty-js",
+  "version": "0.2.1",
+  "authors": [
+    "John-Alan Simmons"
+  ],
+  "description": "A JQuery modal system based from http://tympanus.net/codrops/2013/06/25/nifty-modal-window-effects/",
+  "main": "lib/nifty.js",
+  files: [
+      "lib/nifty.css"
+  ],
+  "peerDependencies": {
+    "jquery": ">= 1.8.0 | ^2.x"
+  },
+  "keywords": [
+    "modals",
+    "modal",
+    "jquery"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/jsimnz/nifty.js",
+  "bugs": "https://github.com/jsimnz/nifty.js/issues"
+}
