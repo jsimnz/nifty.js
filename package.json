@@ -6,7 +6,7 @@
   ],
   "description": "A JQuery modal system based from http://tympanus.net/codrops/2013/06/25/nifty-modal-window-effects/",
   "main": "lib/nifty.js",
-  files: [
+  "files": [
       "lib/nifty.css"
   ],
   "peerDependencies": {
