@@ -106,7 +106,7 @@ Slip in from Top (w/Perspective) | `.slip-in-top-perspective`
 ## Authors
 **John-Alan Simmons** [iamjsimnz](https://github.com/jsimnz), [@iamjsimnz](https://twitter.com/iamjsimnz)
 
-## LICESNCE
+## LICENSE
 ```
 The MIT License (MIT)
 
